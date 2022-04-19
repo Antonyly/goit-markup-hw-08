@@ -1,4 +1,4 @@
-.obligation {
+.container__obligation {
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
@@ -10,18 +10,18 @@
   .obligation-section {
     padding-top: 0;
   }
-  .obligation-list {
+  .obligation__list {
     display: flex;
   }
 
-  .obligation-list-item {
+  .obligation__item {
     position: relative;
     
     &:not(:first-child) {
       margin-left: 30px;
     }
   }
-  .overlay-bg {
+  .obligation__bg {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -34,7 +34,7 @@
   
   
   
-  .main-overlay-text {
+  .obligation__text {
     display: flex;
     justify-content: center;
     align-items: center;

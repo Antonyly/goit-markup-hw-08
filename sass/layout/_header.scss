@@ -6,7 +6,7 @@
     letter-spacing: 0.03em;
     color: #000000;
   }
-  .logo-site {
+  .logo__site {
     font-family: var(--secondary-font-family);
     font-weight: 700;
     font-size: 26px;
@@ -33,7 +33,7 @@
     display: flex;
     flex-direction: row;
   }
-  .header-container__icon {
+  .contacts__icon {
     margin-right: 10px;
   }
   .nav-list__item {
@@ -77,12 +77,12 @@
     }
   }
 
-  .header-container__list {
+  .contacts {
     display: flex;
     margin-left: auto;
   }
 
-  .header-container__link {
+  .contacts__link {
     display: flex;
     align-items: center;
     font-weight: 500;

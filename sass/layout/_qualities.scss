@@ -1,19 +1,16 @@
-.caption {
-    display: flex;
-    justify-content: center;
-  }
-  .caption-list {
+
+  .caption {
     display: flex;
     flex-direction: row;
     margin-top: -30px;
     margin-left: -30px;
   }
-  .caption-list-item {
+  .caption__item {
     flex-basis: calc((100% - 120px) / 4);
     margin-top: 30px;
     margin-left: 30px;
   }
-  .caption-subtitle {
+  .caption__subtitle {
     margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
@@ -22,7 +19,7 @@
     text-transform: uppercase;
     color: var(--primary-text-color-dark);
   }
-  .caption-text {
+  .caption__text {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
