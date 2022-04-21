@@ -191,7 +191,7 @@ a {
   margin-left: auto;
   background-repeat: no-repeat;
   background-size: 1600px;
-  width: 1600px;
+  max-width: 1600px;
   min-height: 600px;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/team.jpg);
 }
