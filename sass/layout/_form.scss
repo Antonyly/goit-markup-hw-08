@@ -181,7 +181,7 @@
   }
 
 
-  .form-box__input:checked + .policy-label::before{
+  .form-box__input:checked + .form-box__label::before{
     background-color: var(--accent-color);
   background-image: url(../icons/icon-check.svg);
   border: none;
