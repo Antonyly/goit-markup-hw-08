@@ -1,4 +1,11 @@
-.container__obligation {
+.obligation-section{
+  display: none;
+}
+@media screen and (min-width:1200px){
+  .obligation-section{
+    display: block;
+  }
+.obligation {
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
@@ -10,18 +17,18 @@
   .obligation-section {
     padding-top: 0;
   }
-  .obligation__list {
+  .obligation-list {
     display: flex;
   }
 
-  .obligation__item {
+  .obligation-list-item {
     position: relative;
     
     &:not(:first-child) {
       margin-left: 30px;
     }
   }
-  .obligation__bg {
+  .overlay-bg {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -34,7 +41,7 @@
   
   
   
-  .obligation__text {
+  .main-overlay-text {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,45 +54,4 @@
   
     color: var(--secondary-text-color-light);
   }
-  .icon-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 270px;
-    height: 120px;
-    background-color: #f5f4fa;
-    border-radius: 4px;
-    margin-bottom: 30px;
-  }
-  
-  .caption {
-    display: flex;
-    justify-content: center;
-  }
-  .caption-list {
-    display: flex;
-    flex-direction: row;
-    margin-top: -30px;
-    margin-left: -30px;
-  }
-  .caption-list-item {
-    flex-basis: calc((100% - 120px) / 4);
-    margin-top: 30px;
-    margin-left: 30px;
-  }
-  .caption-subtitle {
-    margin-bottom: 10px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--primary-text-color-dark);
-  }
-  .caption-text {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: var(--primary-text-color-light);
-  }
+}
