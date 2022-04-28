@@ -709,9 +709,7 @@ a {
   }
   .modal {
     max-width: 100%;
-  }
-  .close {
-    top: 25px;
+    max-height: 100%;
   }
 }
 
