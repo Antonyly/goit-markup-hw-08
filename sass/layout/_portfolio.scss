@@ -128,6 +128,9 @@
     grid-column-gap: 30px ;
     grid-row-gap: 30px;
   }
+  .main-list__item {
+    margin-bottom: 0;
+  }
   .portfolio-list__item {
     margin-bottom: 0;
   
@@ -157,9 +160,7 @@
     display: flex;
     flex-wrap: wrap;
   }
-  .main-list__item{
-    margin-bottom: 0;
-  }
+  
 
 .work{
   padding-top: 94px;
