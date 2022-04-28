@@ -27,8 +27,11 @@
     letter-spacing: 0.03em;
     color: var(--primary-text-color-light);
   }
-    .caption-list-item:not(:last-child) {
+    .caption-list__item {
       margin-bottom: 30px;
+      &:last-child{
+        margin-bottom: 0;
+      }
     }
 @media screen and (min-width:768px){
   .caption {
@@ -40,6 +43,9 @@
     grid-template-columns: 1fr 2fr;
     grid-column-gap: 30px;
     grid-row-gap: 30px;
+  }
+  .caption-list__item{
+    margin-bottom: 0;
   }
   .caption-subtitle {
     display: flex;

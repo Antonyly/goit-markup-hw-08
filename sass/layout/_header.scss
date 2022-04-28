@@ -15,6 +15,7 @@
 border: 1px solid #ECECEC;
 
 }
+
 @media screen and (min-width:768px){
   .header{
     padding-bottom: 0;
@@ -298,6 +299,7 @@ color: #2196F3;
       }
       .header-container__item:not(:last-child) {
         margin-right: 30px;
+        margin-bottom: 0;
       }
 }
 
@@ -307,7 +309,12 @@ position: absolute;
 
 bottom: 0;
 }
-
+.nav-list__link--current {
+  color: #2196f3;
+}
+.mobile-menu__item-link--current{
+  color: #2196f3;
+}
 
 
 
