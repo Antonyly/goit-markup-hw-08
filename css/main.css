@@ -484,13 +484,6 @@ a {
   border-radius: 4px;
 }
 
-.overtitle {
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-  padding: 20px 24px;
-}
-
 .form-section {
   padding: 40px;
 }
@@ -1402,6 +1395,11 @@ a {
 }
 
 @media screen and (min-width: 768px) {
+  .main-list__link {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+  }
   .portfolio-list {
     margin-bottom: 30px;
   }
@@ -1412,6 +1410,7 @@ a {
     grid-row-gap: 30px;
   }
   .main-list__item {
+    display: flex;
     margin-bottom: 0;
   }
   .portfolio-list__item {
@@ -1441,5 +1440,16 @@ a {
   .work {
     padding-top: 94px;
   }
+}
+
+.overtitle {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 20px 24px;
+  background-color: #fff;
+  border: 1px solid #eeeeee;
+  border-top: 0;
+  box-sizing: border-box;
 }
 /*# sourceMappingURL=main.css.map */
