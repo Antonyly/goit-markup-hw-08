@@ -204,6 +204,7 @@ a {
 }
 
 .mobile-menu {
+  display: flex;
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
@@ -363,17 +364,19 @@ a {
   }
 }
 
-.flex-wrapper {
-  position: absolute;
-  bottom: 0;
-}
-
 .nav-list__link--current {
   color: #2196f3;
 }
 
 .mobile-menu__item-link--current {
   color: #2196f3;
+}
+
+.mobile-menu__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: auto;
 }
 
 .hero {
