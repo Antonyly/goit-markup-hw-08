@@ -204,7 +204,6 @@ a {
 }
 
 .mobile-menu {
-  display: flex;
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
